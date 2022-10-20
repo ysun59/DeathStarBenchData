@@ -7,6 +7,9 @@ This is the FlameGraph of running  "hotel_reservation" under the condition: thre
 - R 3000 or 4000
 - collect date of core 1, (firecracker set collect core 1 or core 3)
 
+## Pre-requirements
+- Perf
+
 ## Script
 Use the command below to collect data
 ```bash
