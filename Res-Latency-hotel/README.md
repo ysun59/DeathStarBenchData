@@ -12,6 +12,9 @@ Can see the overall CPU utilization, throughtput, BW etc. in this excel [Latency
 ## Overall Cpu Utilization
 ![CPU_Utilization](CPU_Utilization.jpg)
 
+## Avg Latency
+![Avg_Latency](Avg_Latency.jpg)
+
 ## VMs - Corresponding cores
 * consul \ -—-—----------------—------------------ core 0
 * hotel-reserv-geo \ —---------------------------- core 2
