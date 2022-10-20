@@ -3,9 +3,9 @@ This is the FlameGraph of running  "hotel_reservation" under the condition: thre
 - frontend: 4 cores.
 - wrk: core 31
 - container random, container set, firecracker random, firecracker set
-- collect date from all cores
 - from 25s - 35 s
 - R 3000
+- collect date from all cores
 
 ## Script
 According the [Timed Profiling](https://brendangregg.com/perf.html#TimedProfiling) tutorial. Use the command below to collect data.
