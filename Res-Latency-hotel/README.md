@@ -10,7 +10,7 @@ set wrk to core 31, or 31, 29
 Can see the overall CPU utilization, throughtput, BW etc. in this excel [Latency of HotelReservation](https://docs.google.com/spreadsheets/d/1SAPFEOHZ8QP8jzDtzEEULMyZjnnBidJd21M3Xt4HAz8/edit#gid=0).
 
 ## Overall Cpu Utilization
-![CPU_Utilization](CPU_Utilization.png)
+![CPU_Utilization](CPU_Utilization.jpg)
 
 ## VMs - Corresponding cores
 * consul \ -—-—----------------—------------------ core 0
