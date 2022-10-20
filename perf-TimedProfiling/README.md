@@ -3,7 +3,7 @@ This is the FlameGraph of running  "hotel_reservation" under the condition: thre
 - frontend: 4 cores.
 - wrk: core 31
 - container random, container set, firecracker random, firecracker set
-- collect date of core 1, (firecracker set collect core 1 and core 3)
+- collect date from all cores
 - from 25s - 35 s
 - R 3000
 

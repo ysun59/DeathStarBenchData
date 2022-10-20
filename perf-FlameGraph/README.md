@@ -1,5 +1,5 @@
 # Perf Flame Graph
-This is the FlameGraph of running  "hotel_reservation" under the condition: thread_10_connection_30_Request/second, 
+This is the FlameGraph of running  "hotel_reservation" under the condition: thread_10_connection_30, 
 - frontend: 4 cores.
 - wrk: core 31
 - container random, container set, firecracker random, firecracker set
