@@ -17,11 +17,10 @@ perf record -F 99 -C 1 -g -o "/root/yu/Res/$1/perf.data" -- sleep 10
 This will generate perf.data file.
 
 ## Deal with Data
-Download the [Flamegraph folder](https://github.com/brendangregg/FlameGraph) from github.
+Download the [Flamegraph folder](https://github.com/brendangregg/FlameGraph) from github. We need the executable files stackcollapse-perf.pl and flamegraph.pl in it.
 ```bash
 git clone https://github.com/brendangregg/FlameGraph.git
 ```
-We need to use the executable file stackcollapse-perf.pl and flamegraph.pl in it.
 
 Use the scripts below to generate Flame Graph
 ```bash
