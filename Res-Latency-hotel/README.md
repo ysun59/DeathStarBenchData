@@ -10,9 +10,11 @@ set wrk to core 31, or 31, 29
 Can see the overall CPU utilization, throughtput, BW etc. in this excel [Latency of HotelReservation](https://docs.google.com/spreadsheets/d/1SAPFEOHZ8QP8jzDtzEEULMyZjnnBidJd21M3Xt4HAz8/edit#gid=0).
 
 ## Overall Cpu Utilization
+Overall cpu utilization comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, different -R, according to the data in the upper excel [Latency of HotelReservation](https://docs.google.com/spreadsheets/d/1SAPFEOHZ8QP8jzDtzEEULMyZjnnBidJd21M3Xt4HAz8/edit#gid=0)
 ![CPU_Utilization](CPU_Utilization.jpg)
 
 ## Avg Latency
+Avg Latency comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, firrerent -R, according to the data in the upper excel [Latency of HotelReservation](https://docs.google.com/spreadsheets/d/1SAPFEOHZ8QP8jzDtzEEULMyZjnnBidJd21M3Xt4HAz8/edit#gid=0)
 ![Avg_Latency](Avg_Latency.jpg)
 
 ## VMs - Corresponding cores
