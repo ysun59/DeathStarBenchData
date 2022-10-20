@@ -10,7 +10,7 @@ set wrk to core 31, or 31, 29
 Can see the overall CPU utilization, throughtput, BW etc. in this excel [Summary of HotelReservation](https://docs.google.com/spreadsheets/d/1Wd_QWPUeXN8QmSJorNXnRjmlugQj44pf8u961l5VYDA/edit#gid=0).
 
 ## Mpstat Comparison
-Avg cpu utilization of 60s comparison,under the condition: -R 3000, t_10_c_30_frontCore_4_wrk_1
+Avg cpu utilization of 60s comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, -R 3000
 ![mpstat_UserSysEtc_comparison](mpstat_UsrSysEtc-containerSet-firecrackerSet-R-3000.jpg)
 
 ## VMs - Corresponding cores
