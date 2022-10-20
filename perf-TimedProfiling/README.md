@@ -13,8 +13,6 @@ According the [Timed Profiling](https://brendangregg.com/perf.html#TimedProfilin
 sleep 25
 perf record -F 99 -a -g -o "/root/yu/Res/$1/perf.data" -- sleep 10
 ```
--C 1 means collect the data in core 1, sleep 10 means collect 10s's data.
-
 This will generate perf.data file.
 
 ## Deal with Data
