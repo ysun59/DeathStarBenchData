@@ -21,9 +21,9 @@ This will generate perf.data file.
 perf --no-pager report --stdio >> res.txt
 ```
 Also, you can use command below to see in the terminal directly. Use `j` or `k` to see more.
-```
-perf report --stdio
 ```bash
+perf report --stdio
+```
 
 ### Generate Flame Graph
 Download the [Flamegraph folder](https://github.com/brendangregg/FlameGraph) from github. We need the executable files stackcollapse-perf.pl and flamegraph.pl in it.
