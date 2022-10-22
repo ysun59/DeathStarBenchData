@@ -43,8 +43,8 @@ Avg Latency comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, firrere
 
 
 ## Generation Scrpts：
-* test-CPU-randomCore-grayfox-firecracker
-* test-CPU-oddEvenCore-grayfox-firecracker
+* test-CPU-randomCore-grayfox-latency-firecracker
+* test-CPU-oddEvenCore-grayfox-latency-firecracker
 
 # Data to use:
 grayfox /root/yu/Res-Latency-hotel
