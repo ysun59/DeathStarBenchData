@@ -1,0 +1,20 @@
+# started on Sat Oct 22 04:45:16 2022
+
+
+ Performance counter stats for 'system wide':
+
+        1873838690      L1-dcache-load-misses     #    2.91% of all L1-dcache hits    (66.58%)
+       64396619244      L1-dcache-loads                                               (66.62%)
+          48971693      LLC-load-misses           #   24.67% of all LL-cache hits     (66.65%)
+         198530068      LLC-loads                                                     (66.69%)
+          19982567      LLC-store-misses                                              (16.71%)
+         108840746      LLC-stores                                                    (16.67%)
+          14283533      dTLB-load-misses          #    0.02% of all dTLB cache hits   (25.00%)
+       63285319662      dTLB-loads                                                    (33.32%)
+           1107686      dTLB-store-misses                                             (41.64%)
+       31352665581      dTLB-stores                                                   (49.96%)
+         416890733      iTLB-load-misses          #  208.41% of all iTLB cache hits   (58.28%)
+         200031249      iTLB-loads                                                    (66.60%)
+
+      10.003708890 seconds time elapsed
+
