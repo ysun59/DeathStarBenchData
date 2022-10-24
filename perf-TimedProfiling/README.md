@@ -11,7 +11,7 @@ This is the FlameGraph of running  "hotel_reservation" under the condition: thre
 - Perf
 
 ## Script
-According the [Timed Profiling](https://brendangregg.com/perf.html#TimedProfiling) tutorial. Use the command below to collect data.
+According to the [Timed Profiling](https://brendangregg.com/perf.html#TimedProfiling) tutorial. Use the command below to collect data.
 ```bash
 sleep 25
 perf record -F 99 -a -g -o "/root/yu/Res/$1/perf.data" -- sleep 10

@@ -2,9 +2,9 @@
 
 let 13 firecrackers, each set to different cores, from core 0,2,4,6,8…….20
 
-set frontend to core 1 or above (basically core 1,3,5-more-15)
+set frontend to core 1, 3, 5, 7
 
-set wrk to core 31, or 31, 29
+set wrk to core 31
 
 ## Overall CPU Excel
 Can see the overall CPU utilization, throughtput, BW etc. in this excel [Latency of HotelReservation](https://docs.google.com/spreadsheets/d/1SAPFEOHZ8QP8jzDtzEEULMyZjnnBidJd21M3Xt4HAz8/edit#gid=0).
@@ -45,6 +45,7 @@ Avg Latency comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, firrere
 ## Generation Scrpts：
 * test-CPU-randomCore-grayfox-latency-firecracker
 * test-CPU-oddEvenCore-grayfox-latency-firecracker
+* Command out the line contains `runPerf.sh`
 
 # Data to use:
 grayfox /root/yu/Res-Latency-hotel

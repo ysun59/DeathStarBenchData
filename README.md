@@ -9,9 +9,15 @@ Can see the overall CPU utilization, throughtput, BW etc. in the excels below:
 
 - The [Summary of MediaMicroservices](https://docs.google.com/spreadsheets/d/15ZE8fhBdG4eqeoF4SKdlxhGHdEUOt4ycIA45QE0sNP0/edit#gid=0)
 
-- The [Summary of SocialNetowrk](https://docs.google.com/spreadsheets/d/19gUlqHa60Pn0a4oHwTuilKT-drm3XaGoNARrk3Cob7k/edit#gid=0)
+- The [Summary of SocialNetwork](https://docs.google.com/spreadsheets/d/19gUlqHa60Pn0a4oHwTuilKT-drm3XaGoNARrk3Cob7k/edit#gid=0)
 
 - The [Latency of HotelReservation](https://docs.google.com/spreadsheets/d/1SAPFEOHZ8QP8jzDtzEEULMyZjnnBidJd21M3Xt4HAz8/edit#gid=0)
+
+- The [Perf of HotelReservation](https://docs.google.com/spreadsheets/d/1TrBh9p-e5ZvEHpTV7RjCnJprcAX9USj5mwxQ-W7hJdI/edit#gid=0)
+
+- The [Perf of MediaMicroservices](https://docs.google.com/spreadsheets/d/1zaOMOGnkU5PWuiPJSd_X1S7XV-J2tkXLZaWdLIcMfCQ/edit#gid=0)
+
+- The [Perf of SocialNetwork1](https://docs.google.com/spreadsheets/d/1p-JXlBnkdgEr40PYGVKiHzCcRPLQTEYAuPCoLf1HOEs/edit#gid=0)
 
 ## Greaphs
 ### CPU related
