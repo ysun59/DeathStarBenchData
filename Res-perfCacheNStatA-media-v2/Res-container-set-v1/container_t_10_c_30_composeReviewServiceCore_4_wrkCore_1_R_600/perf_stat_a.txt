@@ -1,0 +1,16 @@
+# started on Sun Nov  6 00:45:53 2022
+
+
+ Performance counter stats for 'system wide':
+
+         320055.35 msec cpu-clock                 #   31.994 CPUs utilized          
+           2323448      context-switches          #    0.007 M/sec                  
+            113309      cpu-migrations            #    0.354 K/sec                  
+            118363      page-faults               #    0.370 K/sec                  
+      103527229759      cycles                    #    0.323 GHz                    
+       83723366453      instructions              #    0.81  insn per cycle         
+       17199201662      branches                  #   53.738 M/sec                  
+         547351310      branch-misses             #    3.18% of all branches        
+
+      10.003733000 seconds time elapsed
+
