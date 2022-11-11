@@ -7,21 +7,31 @@ Can see the overall CPU utilization, throughtput, BW etc. in the excels below:
 
 - The [Summary of HotelReservation](https://docs.google.com/spreadsheets/d/1Wd_QWPUeXN8QmSJorNXnRjmlugQj44pf8u961l5VYDA/edit#gid=0).
 
-- The [Summary of MediaMicroservices](https://docs.google.com/spreadsheets/d/15ZE8fhBdG4eqeoF4SKdlxhGHdEUOt4ycIA45QE0sNP0/edit#gid=0)
+- The [Summary of MediaMicroservices](https://docs.google.com/spreadsheets/d/15ZE8fhBdG4eqeoF4SKdlxhGHdEUOt4ycIA45QE0sNP0/edit#gid=0)（deprecated）
 
-- The [Summary of SocialNetwork](https://docs.google.com/spreadsheets/d/19gUlqHa60Pn0a4oHwTuilKT-drm3XaGoNARrk3Cob7k/edit#gid=0)
+- The [Summary of SocialNetwork](https://docs.google.com/spreadsheets/d/19gUlqHa60Pn0a4oHwTuilKT-drm3XaGoNARrk3Cob7k/edit#gid=0)（deprecated）
 
 - The [Latency of HotelReservation](https://docs.google.com/spreadsheets/d/1SAPFEOHZ8QP8jzDtzEEULMyZjnnBidJd21M3Xt4HAz8/edit#gid=0)
 
-- The [Latency of MediaMicroservices](https://docs.google.com/spreadsheets/d/19FS-EyBTvXsegDJiu6z5GzgEC7pxxrHD69Eg7wujsFU/edit#gid=0)
 
-- The [Latency of SocialNetwork1](https://docs.google.com/spreadsheets/d/1uyBNdEzSTrxeoCo0qvgatThFoAlMP8Mk3O8fM-V3YTg/edit#gid=0)
+
+- The [Latency of SocialNetwork1-v2](https://docs.google.com/spreadsheets/d/1Cy9RjgibUyPHLc6Gp9dHuQ3_c7ULYHVXowZhBgvi-Sk/edit#gid=1488032261)
+
+- The [Latency of MediaMicroservices](https://docs.google.com/spreadsheets/d/19FS-EyBTvXsegDJiu6z5GzgEC7pxxrHD69Eg7wujsFU/edit#gid=0)（deprecated）
+
+- The [Latency of SocialNetwork1](https://docs.google.com/spreadsheets/d/1uyBNdEzSTrxeoCo0qvgatThFoAlMP8Mk3O8fM-V3YTg/edit#gid=0)（deprecated）
 
 - The [Perf of HotelReservation](https://docs.google.com/spreadsheets/d/1TrBh9p-e5ZvEHpTV7RjCnJprcAX9USj5mwxQ-W7hJdI/edit#gid=0)
 
-- The [Perf of MediaMicroservices](https://docs.google.com/spreadsheets/d/1zaOMOGnkU5PWuiPJSd_X1S7XV-J2tkXLZaWdLIcMfCQ/edit#gid=0)
+- The [Perf of MediaMicroservices-v2](https://docs.google.com/spreadsheets/d/1CQmQL74gH_w2xmlM4ZuzPdOE-ZXnCD-OU6Peh6jLdPg/edit#gid=0)
 
-- The [Perf of SocialNetwork1](https://docs.google.com/spreadsheets/d/1p-JXlBnkdgEr40PYGVKiHzCcRPLQTEYAuPCoLf1HOEs/edit#gid=0)
+- The [Perf of SocialNetwork1-v2](https://docs.google.com/spreadsheets/d/1ZxWO7HxeGwjVP26gcd8j80Hcx0y-SjdoiyoT9Itowno/edit#gid=0)
+
+
+
+- The [Perf of MediaMicroservices](https://docs.google.com/spreadsheets/d/1zaOMOGnkU5PWuiPJSd_X1S7XV-J2tkXLZaWdLIcMfCQ/edit#gid=0)（deprecated）
+
+- The [Perf of SocialNetwork1](https://docs.google.com/spreadsheets/d/1p-JXlBnkdgEr40PYGVKiHzCcRPLQTEYAuPCoLf1HOEs/edit#gid=0)（deprecated）
 
 ## Greaphs
 ### CPU related
