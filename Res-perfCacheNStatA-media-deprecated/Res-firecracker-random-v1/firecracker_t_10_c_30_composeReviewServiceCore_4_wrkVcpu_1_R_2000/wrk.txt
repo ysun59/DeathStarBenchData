@@ -1,0 +1,38 @@
+Running 1m test @ http://nginx-web-server:8080/wrk2-api/review/compose
+  10 threads and 30 connections
+  Thread calibration: mean lat.: 380.264ms, rate sampling interval: 986ms
+  Thread calibration: mean lat.: 391.953ms, rate sampling interval: 1125ms
+  Thread calibration: mean lat.: 348.512ms, rate sampling interval: 986ms
+  Thread calibration: mean lat.: 332.871ms, rate sampling interval: 999ms
+  Thread calibration: mean lat.: 309.210ms, rate sampling interval: 944ms
+  Thread calibration: mean lat.: 343.688ms, rate sampling interval: 1071ms
+  Thread calibration: mean lat.: 352.580ms, rate sampling interval: 1020ms
+  Thread calibration: mean lat.: 387.278ms, rate sampling interval: 1112ms
+  Thread calibration: mean lat.: 369.263ms, rate sampling interval: 1227ms
+  Thread calibration: mean lat.: 417.716ms, rate sampling interval: 1202ms
+  Thread Stats   Avg      Stdev     99%   +/- Stdev
+    Latency     -nanus    -nanus   0.00us    0.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    0.00us
+ 75.000%    0.00us
+ 90.000%    0.00us
+ 99.000%    0.00us
+ 99.900%    0.00us
+ 99.990%    0.00us
+ 99.999%    0.00us
+100.000%    0.00us
+
+  Detailed Percentile spectrum:
+       Value   Percentile   TotalCount 1/(1-Percentile)
+
+       0.000     1.000000            0          inf
+#[Mean    =         -nan, StdDeviation   =         -nan]
+#[Max     =        0.000, Total count    =            0]
+#[Buckets =           27, SubBuckets     =         2048]
+----------------------------------------------------------
+  694 requests in 1.00m, 131.46KB read
+  Socket errors: connect 0, read 0, write 0, timeout 767
+  Non-2xx or 3xx responses: 40
+Requests/sec:     11.56
+Transfer/sec:      2.19KB
