@@ -11,7 +11,7 @@ set wrk to core 31
 This time not set to specific cores, just limit the number of cores!!
 
 ## Overall Perf Excel
-Can see the overall Perf data in this excel [Perf of SocialNetwork1-v2](https://docs.google.com/spreadsheets/d/1ZxWO7HxeGwjVP26gcd8j80Hcx0y-SjdoiyoT9Itowno/edit#gid=0).
+Can see the overall Perf data in this excel [Perf of SocialNetwork1](https://docs.google.com/spreadsheets/d/1ZxWO7HxeGwjVP26gcd8j80Hcx0y-SjdoiyoT9Itowno/edit#gid=0).
 
 ## Perf Cache
 According to the [perf-stat](https://man7.org/linux/man-pages/man1/perf-stat.1.html) tutorial. Use the command below to collect data.
@@ -87,4 +87,4 @@ wrk 31
 * No need to command out the line contains `runPerf.sh`
 
 # Data to use:
-grayfox /root/yu/Res-perfCacheNStatA-social-v2
+grayfox /root/yu/Res-perfCacheNStatA-social1

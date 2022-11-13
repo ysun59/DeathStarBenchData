@@ -1,4 +1,4 @@
-# Media Microservices Latency Data
+# Media Microservices Perf Data
 # Set core
 Total 33 containers, 32 firecrackers
 
@@ -6,24 +6,32 @@ let 30 firecrackers, each set to different one core, from core 0,2,4,6,8…….3
 
 let firecracker media-microservice-compose-review-memcached set to core 23, 25
 
-set social-network-compose-post-service to core 1, 3, 5, 7
+set social-network-compose-post-service to core 1 or above (basically core 1,3,5-more-15)
 
-set wrk to core 31
+set wrk to core 31, or 31, 29
 
 If it is container, the container mediamicroservices-dns-media-1 set to core 27
 
-## Overall CPU Excel
-Can see the overall CPU utilization, throughtput, BW etc. in this excel [Latency of MediaMicroservices-v2](https://docs.google.com/spreadsheets/d/1txM9NYG8rz_om3YJ5dDuTJvDBDU834C_kWSyyIDq0G4/edit#gid=371584864).
+This time not set to specific cores, just limit the number of cores!!
 
-## Overall Cpu Utilization
-Overall cpu utilization comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, different -R, according to the data in the upper excel [Latency of MediaMicroservices-v2](https://docs.google.com/spreadsheets/d/1txM9NYG8rz_om3YJ5dDuTJvDBDU834C_kWSyyIDq0G4/edit#gid=371584864)
+## Overall Perf Excel
+Can see the overall Perf data in this excel [Perf of MediaMicroservices](https://docs.google.com/spreadsheets/d/1CQmQL74gH_w2xmlM4ZuzPdOE-ZXnCD-OU6Peh6jLdPg/edit#gid=0).
 
-![CPU_Utilization](CPU_Utilization_media.jpg)
+## Perf Cache
+According to the [perf-stat](https://man7.org/linux/man-pages/man1/perf-stat.1.html) tutorial. Use the command below to collect data.
+```bash
+perf stat -e L1-dcache-load-misses,L1-dcache-loads,LLC-load-misses,LLC-loads,LLC-store-misses,LLC-stores,dTLB-load-misses,dTLB-loads,dTLB-store-misses,dTLB-stores,iTLB-load-misses,iTLB-loads -a -o "/root/yu/Res/$1/perf_stat_cache.txt" -- sleep 10
+```
+Guess: 
+- () means how many data collected, 大概意思就是采集不是完全都采集到的。refer [The Lunux perf Event Scheduling Algorithm](https://hadibrais.wordpress.com/2019/09/06/the-linux-perf-event-scheduling-algorithm/)
+- store miss: 写回的时候目标不在cache里在内存里，就会store miss
+- loads就是读到了, 所以读到的数目就是hits。尝试读 = 读到 + 没读到。得到的16.3%是没读到的占读到的比例
 
-## Avg Latency
-Avg Latency comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, firrerent -R, according to the data in the upper excel [Latency of MediaMicroservices-v2](https://docs.google.com/spreadsheets/d/1txM9NYG8rz_om3YJ5dDuTJvDBDU834C_kWSyyIDq0G4/edit#gid=371584864)
-
-![Avg_Latency](Avg_Latency_media.jpg)
+## Perf Stat -a
+Use the command below to collect data.
+```bash
+perf stat -a -o "/root/yu/Res/$1/perf_stat_a.txt" -- sleep 10
+```
 
 ## VMs - Corresponding cores
 * media-microservice-review-storage-mongodb \ -—-—----------------—-- core 0
@@ -69,12 +77,30 @@ Avg Latency comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, firrere
 core 26,28,30, 9,11，是空的,container多一个dns-media-1占core 11
 
 ## There is little different from set cores
+- In oddEvenCore set condition:
+    - media-microservice-review-storage-memcached
+    - media-microservice-cast-info-memcached
+    - media-microservice-plot-memcached
+    - media-microservice-movie-info-memcached
+    - media-microservice-movie-id-mongodb
+    - media-microservice-user-mongodb
+    - media-microservice-cast-info-mongodb
+    - media-microservice-plot-mongodb
+    - media-microservice-movie-info-mongodb
+    - media-microservice-cast-info-service
+    - media-microservice-plot-service
+    - media-microservice-movie-info-service
+    
+    All set to only one core - core 21
+- In randomCore condition:
+    - upper vms are each set to at most --cpus 1
+
 - Container has 33 vms(container mediamicroservices-dns-media-1), firecracker has 32 vms
 
 ## Generation Scrpts：
 * test-CPU-randomCore-grayfox-latency-firecracker
 * test-CPU-oddEvenCore-grayfox-latency-firecracker
-* Command out the line contains `runPerf.sh`
+* No need to command out the line contains `runPerf.sh`
 
 # Data to use:
-grayfox /root/yu/Res-Latency-media-v2
+grayfox /root/yu/Res-perfCacheNStatA-media

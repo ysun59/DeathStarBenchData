@@ -9,15 +9,15 @@ set social-network-compose-post-service to core 1, 3, 5, 7
 set wrk to core 31
 
 ## Overall CPU Excel
-Can see the overall CPU utilization, throughtput, BW etc. in this excel [Latency of SocialNetwork1-v2](https://docs.google.com/spreadsheets/d/1Cy9RjgibUyPHLc6Gp9dHuQ3_c7ULYHVXowZhBgvi-Sk/edit#gid=1488032261).
+Can see the overall CPU utilization, throughtput, BW etc. in this excel [Latency of SocialNetwork1](https://docs.google.com/spreadsheets/d/1Cy9RjgibUyPHLc6Gp9dHuQ3_c7ULYHVXowZhBgvi-Sk/edit#gid=1488032261).
 
 ## Overall Cpu Utilization
-Overall cpu utilization comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, different -R, according to the data in the upper excel [Latency of SocialNetwork1-v2](https://docs.google.com/spreadsheets/d/1Cy9RjgibUyPHLc6Gp9dHuQ3_c7ULYHVXowZhBgvi-Sk/edit#gid=1488032261)
+Overall cpu utilization comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, different -R, according to the data in the upper excel [Latency of SocialNetwork1](https://docs.google.com/spreadsheets/d/1Cy9RjgibUyPHLc6Gp9dHuQ3_c7ULYHVXowZhBgvi-Sk/edit#gid=1488032261)
 
 ![CPU_Utilization](CPU_Utilization_social1.jpg)
 
 ## Avg Latency
-Avg Latency comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, firrerent -R, according to the data in the upper excel [Latency of SocialNetwork1-v2](https://docs.google.com/spreadsheets/d/1Cy9RjgibUyPHLc6Gp9dHuQ3_c7ULYHVXowZhBgvi-Sk/edit#gid=1488032261)
+Avg Latency comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, firrerent -R, according to the data in the upper excel [Latency of SocialNetwork1](https://docs.google.com/spreadsheets/d/1Cy9RjgibUyPHLc6Gp9dHuQ3_c7ULYHVXowZhBgvi-Sk/edit#gid=1488032261)
 
 ![Avg_Latency](Avg_Latency_social1.jpg)
 
@@ -79,5 +79,5 @@ wrk 31
 * Command out the line contains `runPerf.sh`
 
 # Data to use:
-grayfox /root/yu/Res-Latency-social1-v2
+grayfox /root/yu/Res-Latency-social1
 Data of ComposePosts
