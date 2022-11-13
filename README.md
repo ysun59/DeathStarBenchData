@@ -5,14 +5,17 @@ Specific setting and detailed vm and core corresponding can see the README.md in
 ## Overall CPU Excel
 Can see the overall CPU utilization, throughtput, BW etc. in the excels below:
 
+### Summary
 - The [Summary of HotelReservation](https://docs.google.com/spreadsheets/d/1Wd_QWPUeXN8QmSJorNXnRjmlugQj44pf8u961l5VYDA/edit#gid=0).
 
+### Latency
 - The [Latency of HotelReservation](https://docs.google.com/spreadsheets/d/1SAPFEOHZ8QP8jzDtzEEULMyZjnnBidJd21M3Xt4HAz8/edit#gid=0)
 
 - The [Latency of MediaMicroservices](https://docs.google.com/spreadsheets/d/1txM9NYG8rz_om3YJ5dDuTJvDBDU834C_kWSyyIDq0G4/edit#gid=371584864)
 
 - The [Latency of SocialNetwork1](https://docs.google.com/spreadsheets/d/1Cy9RjgibUyPHLc6Gp9dHuQ3_c7ULYHVXowZhBgvi-Sk/edit#gid=1488032261)
 
+### Perf results
 - The [Perf of HotelReservation](https://docs.google.com/spreadsheets/d/1TrBh9p-e5ZvEHpTV7RjCnJprcAX9USj5mwxQ-W7hJdI/edit#gid=0)
 
 - The [Perf of MediaMicroservices](https://docs.google.com/spreadsheets/d/1CQmQL74gH_w2xmlM4ZuzPdOE-ZXnCD-OU6Peh6jLdPg/edit#gid=0)
