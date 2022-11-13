@@ -14,16 +14,17 @@ Can see the overall CPU utilization, throughtput, BW etc. in the excels below:
 
 - The [Latency of MediaMicroservices](https://docs.google.com/spreadsheets/d/1txM9NYG8rz_om3YJ5dDuTJvDBDU834C_kWSyyIDq0G4/edit#gid=371584864)
     - Data: [Res-Latency-media](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-media)
+
 - The [Latency of SocialNetwork1](https://docs.google.com/spreadsheets/d/1Cy9RjgibUyPHLc6Gp9dHuQ3_c7ULYHVXowZhBgvi-Sk/edit#gid=1488032261)
     - Data: [Res-Latency-social1](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-social1)
 
 ### Perf results
 - The [Perf of HotelReservation](https://docs.google.com/spreadsheets/d/1TrBh9p-e5ZvEHpTV7RjCnJprcAX9USj5mwxQ-W7hJdI/edit#gid=0)
-
+Data: [Res-perfCacheNStatA-hotel](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-hotel)
 - The [Perf of MediaMicroservices](https://docs.google.com/spreadsheets/d/1CQmQL74gH_w2xmlM4ZuzPdOE-ZXnCD-OU6Peh6jLdPg/edit#gid=0)
-
+Data: [Res-perfCacheNStatA-media](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-media)
 - The [Perf of SocialNetwork1](https://docs.google.com/spreadsheets/d/1ZxWO7HxeGwjVP26gcd8j80Hcx0y-SjdoiyoT9Itowno/edit#gid=0)
-
+Data: [Res-perfCacheNStatA-social1](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-social1)
 ## Greaphs
 ### CPU related
 Use `mpstat -P ALL 1` to generate "cpu_perf.txt".
