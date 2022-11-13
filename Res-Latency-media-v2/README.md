@@ -18,9 +18,12 @@ Can see the overall CPU utilization, throughtput, BW etc. in this excel [Latency
 ## Overall Cpu Utilization
 Overall cpu utilization comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, different -R, according to the data in the upper excel [Latency of MediaMicroservices-v2](https://docs.google.com/spreadsheets/d/1txM9NYG8rz_om3YJ5dDuTJvDBDU834C_kWSyyIDq0G4/edit#gid=371584864)
 
+![CPU_Utilization](CPU_Utilization_media.jpg)
+
 ## Avg Latency
 Avg Latency comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, firrerent -R, according to the data in the upper excel [Latency of MediaMicroservices-v2](https://docs.google.com/spreadsheets/d/1txM9NYG8rz_om3YJ5dDuTJvDBDU834C_kWSyyIDq0G4/edit#gid=371584864)
 
+![Avg_Latency](Avg_Latency_media.jpg)
 
 ## VMs - Corresponding cores
 * media-microservice-review-storage-mongodb \ -—-—----------------—-- core 0

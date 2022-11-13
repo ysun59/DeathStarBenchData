@@ -14,8 +14,12 @@ Can see the overall CPU utilization, throughtput, BW etc. in this excel [Latency
 ## Overall Cpu Utilization
 Overall cpu utilization comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, different -R, according to the data in the upper excel [Latency of SocialNetwork1-v2](https://docs.google.com/spreadsheets/d/1Cy9RjgibUyPHLc6Gp9dHuQ3_c7ULYHVXowZhBgvi-Sk/edit#gid=1488032261)
 
+![CPU_Utilization](CPU_Utilization_social1.jpg)
+
 ## Avg Latency
 Avg Latency comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, firrerent -R, according to the data in the upper excel [Latency of SocialNetwork1-v2](https://docs.google.com/spreadsheets/d/1Cy9RjgibUyPHLc6Gp9dHuQ3_c7ULYHVXowZhBgvi-Sk/edit#gid=1488032261)
+
+![Avg_Latency](Avg_Latency_social1.jpg)
 
 ## VMs - Corresponding cores
 * social-network-jaeger-agent \ -—-—----------------—------------------ core 0 （avg 33, max 85只能单独放，一段时间跳一下的）
