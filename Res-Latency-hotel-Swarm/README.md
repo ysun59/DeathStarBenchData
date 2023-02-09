@@ -6,6 +6,10 @@ set frontend to core 1 or above (basically core 1,3,5-more-15)
 
 set wrk to core 31
 
+Notice Container random Swarm didn't get wanted request/second!!!
+
+Only Container set Swarm get wanted request/second in pic. (get request/second (-R) from 100 - 2000)
+
 ## Overall CPU Excel
 Can see the overall CPU utilization, throughtput, BW etc. in this excel [Latency of HotelReservation Swarm](https://docs.google.com/spreadsheets/d/1SAPFEOHZ8QP8jzDtzEEULMyZjnnBidJd21M3Xt4HAz8/edit#gid=1045338351).
 
