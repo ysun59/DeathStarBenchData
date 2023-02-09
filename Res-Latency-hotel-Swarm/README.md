@@ -59,8 +59,10 @@ The mpstat result,under the condition: t_10_c_30_frontCore_4_wrk_1, -R 1000, com
 * test-CPU-oddEvenCore-grayfox-latency-firecracker-swarm
 
 ## Data
-* Res-container-set-Swarm-v1
-* Res-container-random-Swarm-v1
+* Res-container-set-Swarm-v1-machine1
+* Res-container-set-Swarm-v1-machine2
+* Res-container-random-Swarm-v1-machine1
+* Res-container-random-Swarm-v1-machine2
 
 ## Difference of Swarm and non-Swarm
 * Swarm mode set vms to 2 machines / ori container test only on one machine
