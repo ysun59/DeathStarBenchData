@@ -40,7 +40,7 @@ The mpstat result,under the condition: t_10_c_30_frontCore_4_wrk_1, -R 1000, com
 * Hotel-reserv-rate —----------------------------- core 18, 20
 * hotel-reserv-reservation —---------------------- core 22, 24
 
-# VMs - Corresponding cores, secondary machine
+## VMs - Corresponding cores, secondary machine
 * hotel-reserv-rate-mmc \ ---------—-------------- core 0
 * hotel-reserv-profile-mmc \ ----------—---------- core 2
 * hotel-reserv-geo-mongo \ ----------—------------ core 4

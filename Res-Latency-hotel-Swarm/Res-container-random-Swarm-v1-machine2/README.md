@@ -21,7 +21,7 @@ This time not set to specific cores, just limit the number of cores!!
 * Hotel-reserv-rate —----------------------------- core 18, 20
 * hotel-reserv-reservation —---------------------- core 22, 24
 
-# VMs - Corresponding cores, secondary machine
+## VMs - Corresponding cores, secondary machine
 * hotel-reserv-rate-mmc \ ---------—-------------- core 0
 * hotel-reserv-profile-mmc \ ----------—---------- core 2
 * hotel-reserv-geo-mongo \ ----------—------------ core 4
