@@ -9,6 +9,21 @@ set wrk to core 31
 ## Overall CPU Excel
 Can see the overall CPU utilization, throughtput, BW etc. in this excel [Latency of HotelReservation Swarm](https://docs.google.com/spreadsheets/d/1SAPFEOHZ8QP8jzDtzEEULMyZjnnBidJd21M3Xt4HAz8/edit#gid=1045338351).
 
+## Overall Cpu Utilization
+Overall cpu utilization comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, different -R, according to the data in the upper excel [Latency of HotelReservation Swarm](https://docs.google.com/spreadsheets/d/1SAPFEOHZ8QP8jzDtzEEULMyZjnnBidJd21M3Xt4HAz8/edit#gid=1045338351)
+
+![CPU_Utilization](CPU_Utilization_hotel_Swarm.jpg)
+
+## Avg Latency
+Avg Latency comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, dirrerent -R, according to the data in the upper excel [Latency of HotelReservation Swarm](https://docs.google.com/spreadsheets/d/1SAPFEOHZ8QP8jzDtzEEULMyZjnnBidJd21M3Xt4HAz8/edit#gid=1045338351)
+
+![Avg_Latency](Avg_Latency_hotel_Swarm.jpg)
+
+## Mpstat-UsrSysEtc
+The mpstat result,under the condition: t_10_c_30_frontCore_4_wrk_1, -R 3000, compare the UsrSysEtc result of "container set" and "firecracker set"
+
+![Mpstat_UsrSysEtc_Container_Swarm_setCore_R1000](mpstat_UsrSysEtc-container-Swarm-setCore-R-1000.jpg)
+
 ## VMs - Corresponding cores, master machine
 * consul \ -—-—----------------—------------------ core 0
 * hotel-reserv-geo \ —---------------------------- core 2
