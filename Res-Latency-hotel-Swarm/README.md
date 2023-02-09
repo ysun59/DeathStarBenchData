@@ -66,3 +66,12 @@ The mpstat result,under the condition: t_10_c_30_frontCore_4_wrk_1, -R 1000, com
 * Swarm mode set vms to 2 machines / ori container test only on one machine
 * Swarm don't have vms set to one same core 
 * Swam record the BW of the physical network card 
+
+## Modification needed in Deal Data Scripts
+- In order to let fio_extract.py works properly
+    - "AM" generated in machine 2's cpu_perf.txt should be removed
+    - The cpu_perf.txt's last line may finished in the middle, should manually delete the uncomplete line in the end
+- draw_mpstat_all_avg.py should be modified.
+    - File name has been modified, so the path in line 21-24 shuold be modified
+    - Title in line 76 can be modified
+    - X coordinate in line 80 must been changed
