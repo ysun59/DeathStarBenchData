@@ -20,7 +20,7 @@ Avg Latency comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, dirrere
 ![Avg_Latency](Avg_Latency_hotel_Swarm.jpg)
 
 ## Mpstat-UsrSysEtc
-The mpstat result,under the condition: t_10_c_30_frontCore_4_wrk_1, -R 3000, compare the UsrSysEtc result of "container set" and "firecracker set"
+The mpstat result,under the condition: t_10_c_30_frontCore_4_wrk_1, -R 1000, compare the UsrSysEtc result of "container set" in machine 1 and machine 2
 
 ![Mpstat_UsrSysEtc_Container_Swarm_setCore_R1000](mpstat_UsrSysEtc-container-Swarm-setCore-R-1000.jpg)
 
