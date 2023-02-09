@@ -13,7 +13,7 @@ Can see the overall CPU utilization, throughtput, BW etc. in the excels below:
     - Data: [Res-Latency-hotel](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-hotel)
 
 - The [Latency of HotelReservation Swarm](https://docs.google.com/spreadsheets/d/1SAPFEOHZ8QP8jzDtzEEULMyZjnnBidJd21M3Xt4HAz8/edit#gid=1045338351)
-    - Data: [Res-Latency-hotel](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-hotel-Swarm)
+    - Data: [Res-Latency-hotel-Swarm](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-hotel-Swarm)
 
 - The [Latency of MediaMicroservices](https://docs.google.com/spreadsheets/d/1txM9NYG8rz_om3YJ5dDuTJvDBDU834C_kWSyyIDq0G4/edit#gid=371584864)
     - Data: [Res-Latency-media](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-media)
