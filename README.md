@@ -28,7 +28,7 @@ Can see the overall CPU utilization, throughtput, BW etc. in the excels below:
 - The [Perf of MediaMicroservices](https://docs.google.com/spreadsheets/d/1CQmQL74gH_w2xmlM4ZuzPdOE-ZXnCD-OU6Peh6jLdPg/edit#gid=0)
     - Data: [Res-perfCacheNStatA-media](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-media)
 
-- The [Perf of SocialNetwork1](https://docs.google.com/spreadsheets/d/1ZxWO7HxeGwjVP26gcd8j80Hcx0y-SjdoiyoT9Itowno/edit#gid=0)
+- The [Perf of SocialNetwork1](https://docs.google.com/spreadsheets/d/1ZxWO7HxeGwjVP26gcd8j80Hcx0y-SjdoiyoT9Itowno/edit#gid=0)-Deprecated
     - Data: [Res-perfCacheNStatA-social1](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-social1)
     
 ## Greaphs

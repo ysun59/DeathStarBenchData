@@ -15,8 +15,10 @@ set wrk to core 31
 
 * hotel-reserv-profile ---—----------------------- core 10, 12
 * hotel-reserv-search --—------------------------- core 14, 16
-* Hotel-reserv-rate —----------------------------- core 18, 20
+* hotel-reserv-rate —----------------------------- core 18, 20
 * hotel-reserv-reservation —---------------------- core 22, 24
+
+* hotel-frontend --------------------------------------- core 1, 3, 5, 7
 
 ## VMs - Corresponding cores, secondary machine
 * hotel-reserv-rate-mmc \ ---------—-------------- core 0
