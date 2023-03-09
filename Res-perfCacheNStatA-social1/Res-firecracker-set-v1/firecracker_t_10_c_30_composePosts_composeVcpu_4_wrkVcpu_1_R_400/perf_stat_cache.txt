@@ -1,20 +1,20 @@
-# started on Fri Nov  4 14:52:06 2022
+# started on Tue Mar  7 08:08:18 2023
 
 
  Performance counter stats for 'system wide':
 
-         910186559      L1-dcache-load-misses     #    5.88% of all L1-dcache hits    (66.58%)
-       15489734702      L1-dcache-loads                                               (66.62%)
-          26222718      LLC-load-misses           #   13.67% of all LL-cache hits     (66.65%)
-         191845384      LLC-loads                                                     (66.69%)
-          11150382      LLC-store-misses                                              (16.71%)
-          59521722      LLC-stores                                                    (16.68%)
-          19875533      dTLB-load-misses          #    0.13% of all dTLB cache hits   (25.00%)
-       15696165208      dTLB-loads                                                    (33.32%)
-           1420851      dTLB-store-misses                                             (41.64%)
-        8249969036      dTLB-stores                                                   (49.96%)
-         128374927      iTLB-load-misses          #  184.90% of all iTLB cache hits   (58.29%)
-          69430176      iTLB-loads                                                    (66.61%)
+         896199192      L1-dcache-load-misses     #    5.92% of all L1-dcache hits    (66.57%)
+       15147464571      L1-dcache-loads                                               (66.61%)
+          25150889      LLC-load-misses           #   13.55% of all LL-cache hits     (66.64%)
+         185575577      LLC-loads                                                     (66.68%)
+          11083159      LLC-store-misses                                              (16.72%)
+          56636698      LLC-stores                                                    (16.68%)
+          18521449      dTLB-load-misses          #    0.12% of all dTLB cache hits   (25.01%)
+       15257650564      dTLB-loads                                                    (33.33%)
+           1400220      dTLB-store-misses                                             (41.65%)
+        8187252734      dTLB-stores                                                   (49.97%)
+         124574609      iTLB-load-misses          #  176.86% of all iTLB cache hits   (58.30%)
+          70435956      iTLB-loads                                                    (66.62%)
 
-      10.004013332 seconds time elapsed
+      10.004031210 seconds time elapsed
 
