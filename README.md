@@ -18,6 +18,7 @@ Can see the overall CPU utilization, throughtput, BW etc. in the excels below:
 - The [Latency of MediaMicroservices](https://docs.google.com/spreadsheets/d/1txM9NYG8rz_om3YJ5dDuTJvDBDU834C_kWSyyIDq0G4/edit#gid=371584864)
     - Data: [Res-Latency-media](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-media)
 
+- The [Latency of SocialNetwork1](https://docs.google.com/spreadsheets/d/1Cy9RjgibUyPHLc6Gp9dHuQ3_c7ULYHVXowZhBgvi-Sk/edit#gid=1141394922)-Deprecated
 - The [Latency of SocialNetwork1](https://docs.google.com/spreadsheets/d/1OWJtoCTm1KkaKo1uHtZCIG4hWMK_JfU0VITX-78dflE/edit#gid=1488032261)
     - Data: [Res-Latency-social1](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-social1)
 
