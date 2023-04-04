@@ -22,6 +22,14 @@ Can see the overall CPU utilization, throughtput, BW etc. in the excels below:
 - The [Latency of SocialNetwork1](https://docs.google.com/spreadsheets/d/1OWJtoCTm1KkaKo1uHtZCIG4hWMK_JfU0VITX-78dflE/edit#gid=1488032261)
     - Data: [Res-Latency-social1](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-social1)
 
+
+
+- The [Latency of HotelReservation - 1profile](https://docs.google.com/spreadsheets/d/1V2xNBc6SFpd61tMx0VRsOVSp7tgv5Kaim13BFBtLXWw/edit#gid=0)
+    - Data: [Res-Latency-hotel-1profile](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-hotel-1profile)
+
+- The [Latency of HotelReservation Swarm - 1profile](https://docs.google.com/spreadsheets/d/1V2xNBc6SFpd61tMx0VRsOVSp7tgv5Kaim13BFBtLXWw/edit#gid=1045338351)
+    - Data: [Res-Latency-hotel-Swarm](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-hotel-Swarm-1profile)
+
 ### Perf results
 - The [Perf of HotelReservation](https://docs.google.com/spreadsheets/d/1TrBh9p-e5ZvEHpTV7RjCnJprcAX9USj5mwxQ-W7hJdI/edit#gid=0)
     - Data: [Res-perfCacheNStatA-hotel](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-hotel)
