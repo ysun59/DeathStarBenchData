@@ -20,7 +20,7 @@ set wrk to core 31
 
 * hotel-frontend --------------------------------------- core 1, 3, 5, 7
 
-# VMs - Corresponding cores, secondary machine
+## VMs - Corresponding cores, secondary machine
 * hotel-reserv-rate-mmc \ ---------—-------------- core 0
 * hotel-reserv-profile-mmc \ ----------—---------- core 2
 * hotel-reserv-geo-mongo \ ----------—------------ core 4
@@ -39,8 +39,11 @@ set wrk to core 31
 * test-CPU-oddEvenCore-grayfox-latency-firecracker-swarm
 
 ## Data
-* Res-container-set-Swarm-v1
-* Res-container-random-Swarm-v1
+- hotel-1profile-machine2
+    - Res-container-random-Swarm-v1-machine2
+    - Res-container-set-Swarm-v1-machine2
+    - Res-firecracker-random-Swarm-v1-machine2
+    - Res-firecracker-set-Swarm-v1-machine2
 
 ## Difference of Swarm and non-Swarm
 * Swarm mode set vms to 2 machines / ori container test only on one machine

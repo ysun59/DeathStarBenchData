@@ -1,4 +1,4 @@
-# Hotel Reservation Data
+# Hotel Reservation Data - 1 profile
 
 let 13 firecrackers, each set to different cores, from core 0,2,4,6,8…….20
 
