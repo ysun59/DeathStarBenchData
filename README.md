@@ -25,10 +25,25 @@ Can see the overall CPU utilization, throughtput, BW etc. in the excels below:
 
 
 - The [Latency of HotelReservation - 1profile](https://docs.google.com/spreadsheets/d/1V2xNBc6SFpd61tMx0VRsOVSp7tgv5Kaim13BFBtLXWw/edit#gid=0)
-    - Data: [Res-Latency-hotel-1profile](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-hotel-1profile)
+    - Data: [01-Res-Latency-hotel-1profile](https://github.com/ysun59/DeathStarBenchData/tree/master/01-Res-Latency-hotel-1profile)
 
 - The [Latency of HotelReservation Swarm - 1profile](https://docs.google.com/spreadsheets/d/1V2xNBc6SFpd61tMx0VRsOVSp7tgv5Kaim13BFBtLXWw/edit#gid=1045338351)
-    - Data: [Res-Latency-hotel-Swarm](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-hotel-Swarm-1profile)
+    - Data: [01-Res-Latency-hotel-Swarm-1profile](https://github.com/ysun59/DeathStarBenchData/tree/master/01-Res-Latency-hotel-Swarm-1profile)
+
+
+- The [Latency of HotelReservation - 1profile - better](https://docs.google.com/spreadsheets/d/1_t2eJdry_HFz5YUytr2Qc2vPFCRCXc6_pGuTCbmx8jA/edit#gid=0).
+    - Data: [02-Res-Latency-hotel-1profile-better](https://github.com/ysun59/DeathStarBenchData/tree/master/02-Res-Latency-hotel-1profile-better)
+
+- The [Latency of HotelReservation Swarm - 1profile - better](https://docs.google.com/spreadsheets/d/1_t2eJdry_HFz5YUytr2Qc2vPFCRCXc6_pGuTCbmx8jA/edit#gid=1045338351)
+    - Data: [02-Res-Latency-hotel-Swarm-1profile-better](https://github.com/ysun59/DeathStarBenchData/tree/master/02-Res-Latency-hotel-Swarm-1profile-better)
+
+
+- The [Latency of HotelReservation - 2profile - better](https://docs.google.com/spreadsheets/d/1cbLkXNj2Nv5Erb4qJ-bofXix7H1UAu_WXZP_0gF-ycY/edit#gid=0).
+    - Data: [03-Res-Latency-hotel-2profile-better](https://github.com/ysun59/DeathStarBenchData/tree/master/03-Res-Latency-hotel-2profile-better)
+
+- The [Latency of HotelReservation Swarm - 2profile - better](https://docs.google.com/spreadsheets/d/1cbLkXNj2Nv5Erb4qJ-bofXix7H1UAu_WXZP_0gF-ycY/edit#gid=1045338351)
+    - Data: [03-Res-Latency-hotel-Swarm-2profile-better](https://github.com/ysun59/DeathStarBenchData/tree/master/03-Res-Latency-hotel-Swarm-2profile-better)
+
 
 ### Perf results
 - The [Perf of HotelReservation](https://docs.google.com/spreadsheets/d/1TrBh9p-e5ZvEHpTV7RjCnJprcAX9USj5mwxQ-W7hJdI/edit#gid=0)
