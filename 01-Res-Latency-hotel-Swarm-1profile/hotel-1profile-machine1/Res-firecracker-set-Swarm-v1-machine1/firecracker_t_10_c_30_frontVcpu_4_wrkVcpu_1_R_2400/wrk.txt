@@ -1,0 +1,37 @@
+Running 1m test @ http://frontend:5000
+  10 threads and 30 connections
+  Thread calibration: mean lat.: 15.260ms, rate sampling interval: 51ms
+  Thread calibration: mean lat.: 12.818ms, rate sampling interval: 53ms
+  Thread calibration: mean lat.: 20.581ms, rate sampling interval: 67ms
+  Thread calibration: mean lat.: 15.257ms, rate sampling interval: 55ms
+  Thread calibration: mean lat.: 17.931ms, rate sampling interval: 64ms
+  Thread calibration: mean lat.: 16.011ms, rate sampling interval: 57ms
+  Thread calibration: mean lat.: 13.609ms, rate sampling interval: 51ms
+  Thread calibration: mean lat.: 17.276ms, rate sampling interval: 59ms
+  Thread calibration: mean lat.: 20.107ms, rate sampling interval: 71ms
+  Thread calibration: mean lat.: 15.628ms, rate sampling interval: 56ms
+  Thread Stats   Avg      Stdev     99%   +/- Stdev
+    Latency     -nanus    -nanus   0.00us    0.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    0.00us
+ 75.000%    0.00us
+ 90.000%    0.00us
+ 99.000%    0.00us
+ 99.900%    0.00us
+ 99.990%    0.00us
+ 99.999%    0.00us
+100.000%    0.00us
+
+  Detailed Percentile spectrum:
+       Value   Percentile   TotalCount 1/(1-Percentile)
+
+       0.000     1.000000            0          inf
+#[Mean    =         -nan, StdDeviation   =         -nan]
+#[Max     =        0.000, Total count    =            0]
+#[Buckets =           27, SubBuckets     =         2048]
+----------------------------------------------------------
+  22242 requests in 1.00m, 9.19MB read
+  Socket errors: connect 0, read 0, write 0, timeout 198
+Requests/sec:    370.63
+Transfer/sec:    156.83KB
