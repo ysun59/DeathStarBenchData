@@ -67,7 +67,7 @@ https://docs.google.com/spreadsheets/d/1cbLkXNj2Nv5Erb4qJ-bofXix7H1UAu_WXZP_0gF-
     - Data: [02-Res-Latency-Social1](https://github.com/ysun59/DeathStarBenchData/tree/master/02-Res-Latency-Social1)
 
 - The [02 - Latency of SocialNetwork1 Swarm ](https://docs.google.com/spreadsheets/d/1cVVgBsQXYFdK8wWYeFSkCXTaK7Lk_UoXT8pRVRz7Vhw/edit#gid=1045338351)
-    - Data: [02-Res-Latency-Social1-Swarm](https://github.com/ysun59/DeathStarBenchData/tree/master/03-Res-Latency-Social1-Swarm)
+    - Data: [02-Res-Latency-Social1-Swarm](https://github.com/ysun59/DeathStarBenchData/tree/master/02-Res-Latency-Social1-Swarm)
 
 
 ### Perf results
