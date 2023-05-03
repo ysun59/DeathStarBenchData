@@ -11,7 +11,8 @@ for fcId in \
 	firecracker_t_10_c_30_composePosts_composeVcpu_4_wrkVcpu_1_R_1200\
 	firecracker_t_10_c_30_composePosts_composeVcpu_4_wrkVcpu_1_R_1500\
 	firecracker_t_10_c_30_composePosts_composeVcpu_4_wrkVcpu_1_R_2000\
-	firecracker_t_10_c_30_composePosts_composeVcpu_4_wrkVcpu_1_R_2400
+	firecracker_t_10_c_30_composePosts_composeVcpu_4_wrkVcpu_1_R_2400\
+	firecracker_t_10_c_30_composePosts_composeVcpu_4_wrkVcpu_1_R_3000
 do 
 	echo $fcId
 	cd $fcId

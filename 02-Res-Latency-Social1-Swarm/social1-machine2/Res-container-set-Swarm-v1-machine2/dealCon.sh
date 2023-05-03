@@ -9,7 +9,9 @@ for fcId in \
 	container_t_10_c_30_composePosts_composeCore_4_wrkCore_1_R_1000\
 	container_t_10_c_30_composePosts_composeCore_4_wrkCore_1_R_1200\
 	container_t_10_c_30_composePosts_composeCore_4_wrkCore_1_R_1500\
-	container_t_10_c_30_composePosts_composeCore_4_wrkCore_1_R_2000
+	container_t_10_c_30_composePosts_composeCore_4_wrkCore_1_R_2000\
+	container_t_10_c_30_composePosts_composeCore_4_wrkCore_1_R_2400\
+	container_t_10_c_30_composePosts_composeCore_4_wrkCore_1_R_3000
 do 
 	echo $fcId
 	cd $fcId
