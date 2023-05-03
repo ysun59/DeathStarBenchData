@@ -11,6 +11,9 @@ Notice Container random Swarm didn't get wanted request/second!!!
 
 Only Container set Swarm get wanted request/second in pic. (get request/second (-R) from 200 - 1500)
 
+**这里container Swarm random会失败没有结果**
+原因是hotel-reserv-reservation-mongo在一个机子上时候，本来只需要一个core，而且本身cpu利用率非常少，是和别的叠在一起的，但是两个机子container swarm random的时候还是给1个core会挂掉。
+
 ## Overall CPU Excel
 Can see the overall CPU utilization, throughtput, BW etc. in this excel [Latency of HotelReservation Swarm - 1profile](https://docs.google.com/spreadsheets/d/1V2xNBc6SFpd61tMx0VRsOVSp7tgv5Kaim13BFBtLXWw/edit#gid=1045338351).
 

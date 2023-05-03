@@ -30,7 +30,7 @@ set wrk to core 31
 * hotel-reserv-user-mongo  ----------------------- core 12
 
 * hotel-reserv-reservation-mmc —---—---------------core 14, 16
-* hotel-reserv-reservation-mongo \ --------------- core 18, 20, 22, 24(这个本来只需要一个core，而且本身cpu利用率非常少，是和别的叠在一起的，但是两个机子container swarm random的时候会挂掉，所以给4个core)
+* hotel-reserv-reservation-mongo \ --------------- core 18, 20, 22, 24(这个本来只需要一个core，而且本身cpu利用率非常少，是和别的叠在一起的，但是两个机子container swarm random的时候会挂掉，所以给4个core)(~~spid数目是变化的，一开始容器创建好是34，当wrk开始后会涨到63，然后会变成64，到最后wrk结束保持在一共64个spid不变~~）
 
 
 ## Generation Scrpts：

@@ -8,6 +8,41 @@ set wrk to core 31
 
 This time not set to specific cores, just limit the number of cores!!
 
+## Difference between 1 profile and 1 profile - better (01 vs 02)
+- 测一个机子情况的时候，原本叠加在core 20上的 hotel-reserv-recommendation-mongo (20)，hotel-reserv-reservation-mongo(13,15)，hotel-reserv-user-mongo(22)分开放在不同的core上了；
+- profile依旧被动设置一个core;
+- hotel-reserv-reservation-mongo给了2个core,从叠在core 20上变成分布在core 13,15上。
+
+## Difference between 1 profile - better and 2 profile - better(02 vs 03)
+- 因为firecracker的网络修好了，所以profile从1个core变成给了2个core;
+- hotel-reserv-reservation-mongo从给了2个core变成给了4个core。
+
+## Overall CPU Excel
+Can see the overall CPU utilization, throughtput, BW etc. in this excel [Latency of HotelReservation Swarm - 2profile - better](https://docs.google.com/spreadsheets/d/1cbLkXNj2Nv5Erb4qJ-bofXix7H1UAu_WXZP_0gF-ycY/edit#gid=1045338351).
+
+## Overall Cpu Utilization
+Overall cpu utilization comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, different -R, according to the data in the upper excel [Latency of HotelReservation Swarm - 2profile - better](https://docs.google.com/spreadsheets/d/1cbLkXNj2Nv5Erb4qJ-bofXix7H1UAu_WXZP_0gF-ycY/edit#gid=1045338351)
+
+Cpu utilization of all the swarm data: container swarm + firecracker swarm
+![CPU_Utilization_Swarm_2Profile_Better](CPU_Utilization_hotel_Swarm_2Profile_Better.png)
+Cpu utilization of all the container data:
+![CPU_Utilization_Swarm_2Profile_Better_Container](CPU_Utilization_hotel_Swarm_2Profile_Better_container.png)
+Cpu utilization of all the firecracker data:
+![CPU_Utilization_Swarm_2Profile_Better_Firecracker](CPU_Utilization_hotel_Swarm_2Profile_Better_firecracker.png)
+
+## Avg Latency
+Avg Latency comparison,under the condition: t_10_c_30_frontCore_4_wrk_1, dirrerent -R, according to the data in the upper excel [Latency of HotelReservation Swarm - 2profile - better](https://docs.google.com/spreadsheets/d/1cbLkXNj2Nv5Erb4qJ-bofXix7H1UAu_WXZP_0gF-ycY/edit#gid=1045338351)
+
+![Avg_Latency_Swarm_2Profile_Better](Avg_Latency_hotel_Swarm_2Profile_Better.jpg)
+
+## Mpstat-UsrSysEtc
+The mpstat result,under the condition: t_10_c_30_frontCore_4_wrk_1, -R 800, compare the UsrSysEtc result of "container set" in machine 1 and machine 2
+
+![Mpstat_UsrSysEtc_Container_Swarm_setCore_R800_2Profile_Better](mpstat_UsrSysEtc-container-Swarm-setCore-R-800-2Profile_Better.jpg)
+
+The mpstat result,under the condition: t_10_c_30_frontCore_4_wrk_1, -R 800, compare the UsrSysEtc result of "firecracker set" in machine 1 and machine 2
+
+![Mpstat_UsrSysEtc_Firecracker_Swarm_setCore_R800_2Profile_Better](mpstat_UsrSysEtc-firecracker-Swarm-setCore-R-800-2Profile_Better.jpg)
 
 ## VMs - Corresponding cores, master machine
 * consul \ -—-—----------------—------------------ core 0

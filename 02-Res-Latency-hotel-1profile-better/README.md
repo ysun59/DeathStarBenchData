@@ -24,8 +24,8 @@ The mpstat result,under the condition: t_10_c_30_frontCore_4_wrk_1, -R 1500, com
 
 ![Mpstat_UsrSysEtc_R1500_1Profile_Better](mpstat_UsrSysEtc-containerSet-firecrackerSet-R-1500-1profile-better.jpg)
 
-## Difference between 1 profile and 1 profile - better
-- 原本叠加在core 20上的 hotel-reserv-recommendation-mongo (20)，hotel-reserv-reservation-mongo(13,15)，hotel-reserv-user-mongo(22)分开放在不同的core上了；
+## Difference between 1 profile and 1 profile - better (01 vs 02)
+- 测一个机子情况的时候，原本叠加在core 20上的 hotel-reserv-recommendation-mongo (20)，hotel-reserv-reservation-mongo(13,15)，hotel-reserv-user-mongo(22)分开放在不同的core上了；
 - profile依旧被动设置一个core;
 - hotel-reserv-reservation-mongo给了2个core,从叠在core 20上变成分布在core 13,15上。
 

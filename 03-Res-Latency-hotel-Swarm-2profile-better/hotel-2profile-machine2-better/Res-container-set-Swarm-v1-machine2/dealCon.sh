@@ -5,7 +5,10 @@ for fcId in \
 	container_t_10_c_30_frontCore_4_wrkCore_1_R_200 \
 	container_t_10_c_30_frontCore_4_wrkCore_1_R_400 \
 	container_t_10_c_30_frontCore_4_wrkCore_1_R_800 \
-	container_t_10_c_30_frontCore_4_wrkCore_1_R_1000 
+	container_t_10_c_30_frontCore_4_wrkCore_1_R_1000 \
+	container_t_10_c_30_frontCore_4_wrkCore_1_R_1200 \
+	container_t_10_c_30_frontCore_4_wrkCore_1_R_1500 \
+	container_t_10_c_30_frontCore_4_wrkCore_1_R_2000 
 do 
 	echo $fcId
 	cd $fcId
