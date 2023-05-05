@@ -53,7 +53,7 @@ Can see the overall CPU utilization, throughtput, BW etc. in the excels below:
 https://docs.google.com/spreadsheets/d/1cbLkXNj2Nv5Erb4qJ-bofXix7H1UAu_WXZP_0gF-ycY/edit#gid=2061700494
 
 - The [04 - Latency of HotelReservation Swarm - MongoResvOn1](https://docs.google.com/spreadsheets/d/1yr_dSbPduUqw2jLXF3KFfmuBnPd459WuBtFUlM8R2aY/edit#gid=1045338351)
-    - Data: [04-Res-Latency-hotel-Swarm-MongoResvOn1](https://github.com/ysun59/DeathStarBenchData/tree/master/03-Res-Latency-hotel-Swarm-MongoResvOn1)
+    - Data: [04-Res-Latency-hotel-Swarm-MongoResvOn1](https://github.com/ysun59/DeathStarBenchData/tree/master/04-Res-Latency-hotel-Swarm-MongoResvOn1)
 
 
 
