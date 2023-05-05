@@ -14,8 +14,6 @@ If it is container, the container mediamicroservices-dns-media-1 set to core 11
 
 This time not set to specific cores, just limit the number of cores!!
 
-https://docs.google.com/spreadsheets/d/1KipZ43JScKEp5h5mVUZfuVkJqZ-6gj9VnuggwYaOQyM/edit#gid=0
-https://docs.google.com/spreadsheets/d/1KipZ43JScKEp5h5mVUZfuVkJqZ-6gj9VnuggwYaOQyM/edit#gid=0
 
 ## Overall CPU Excel
 Can see the overall CPU utilization, throughtput, BW etc. in this excel [02 - Latency of MediaMicroservices](https://docs.google.com/spreadsheets/d/1KipZ43JScKEp5h5mVUZfuVkJqZ-6gj9VnuggwYaOQyM/edit#gid=0).

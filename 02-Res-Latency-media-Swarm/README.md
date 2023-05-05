@@ -1,4 +1,4 @@
-# Media Microservices
+# Media Microservices Swarm
 Total 33 containers, 32 firecrackers
 
 let 30 firecrackers, each set to different one core, from core 0,2,4,6,8…….30 AND 17, 19, 21
