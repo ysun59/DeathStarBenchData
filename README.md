@@ -81,6 +81,31 @@ https://docs.google.com/spreadsheets/d/1cbLkXNj2Nv5Erb4qJ-bofXix7H1UAu_WXZP_0gF-
 
 - The [Perf of SocialNetwork1](https://docs.google.com/spreadsheets/d/1vmGy8G-NPFnY39P1ePUriOFQDQOiv1oFT24I9uchyn0/edit#gid=0)
     - Data: [Res-perfCacheNStatA-social1](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-social1)
+
+
+
+#############Latest##################
+- The [Perf of HotelReservation 03](https://docs.google.com/spreadsheets/d/10gnO8lXZlIMoGKmZCxjOrAs21PtjUq6iu_iBvpcfAEA/edit#gid=0)
+    - Data: [Res-perfCacheNStatA-hotel-03](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-hotel-03)
+
+- The [Perf of HotelReservation Swarm-customizaConSet-03](https://docs.google.com/spreadsheets/d/10gnO8lXZlIMoGKmZCxjOrAs21PtjUq6iu_iBvpcfAEA/edit#gid=0)
+    - Data: [Res-perfCacheNStatA-hotel-Swarm-customizaConSet-03](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-hotel-Swarm-customizaConSet-03)
+
+- The [Perf of HotelReservation Swarm-MongoResvOn1-04](https://docs.google.com/spreadsheets/d/1O9lRwbJ30G1ch94vC62mHDL1GhW8SunfWqgYf2vTBfM/edit#gid=0)
+    - Data: [Res-perfCacheNStatA-hotel-Swarm-MongoResvOn1-04](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-hotel-Swarm-MongoResvOn1-04)
+
+- The [Perf of MediaMicroservices 02](https://docs.google.com/spreadsheets/d/1BW-QyvjH_sEcxbcsBYkKwGXgxumVj0DwuP2HVcZOqZg/edit#gid=0)
+    - Data: [Res-perfCacheNStatA-media-02](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-media-02)
+
+- The [Perf of MediaMicroservices Swarm-02](https://docs.google.com/spreadsheets/d/1BW-QyvjH_sEcxbcsBYkKwGXgxumVj0DwuP2HVcZOqZg/edit#gid=0)
+    - Data: [Res-perfCacheNStatA-media-Swarm-02](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-media-Swarm-02) 
+
+- The [Perf of SocialNetwork1 02](https://docs.google.com/spreadsheets/d/1k7GN9RZ_emAuYgQBuORj2ShQz3i6qeSSy3FHQH66wMc/edit#gid=0)
+    - Data: [Res-Latency-social1-02](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-social1-02) 
+
+- The [Perf of SocialNetwork1 Swarm-02](https://docs.google.com/spreadsheets/d/1k7GN9RZ_emAuYgQBuORj2ShQz3i6qeSSy3FHQH66wMc/edit#gid=0)
+    - Data: [Res-perfCacheNStatA-social1-Swarm-02](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-social1-Swarm-02) 
+
     
 ## Greaphs
 ### CPU related
@@ -137,3 +162,7 @@ This folder has the graph, compare the average CPU Utilization of four different
 - Firecracker Random, 
 - Firecracker set, 
 under the specific -R(Requests/sec) parameter
+
+### Flaming Graph
+- [perf-FlameGraph](https://github.com/ysun59/DeathStarBenchData/tree/master/perf-FlameGraph)
+- [perf-TimedProfiling](https://github.com/ysun59/DeathStarBenchData/tree/master/perf-TimedProfiling)
