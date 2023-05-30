@@ -70,6 +70,19 @@ https://docs.google.com/spreadsheets/d/1cbLkXNj2Nv5Erb4qJ-bofXix7H1UAu_WXZP_0gF-
     - Data: [02-Res-Latency-Social1-Swarm](https://github.com/ysun59/DeathStarBenchData/tree/master/02-Res-Latency-Social1-Swarm)
 
 
+#############Latest-20230530##################
+- The [05 - Latency of HotelReservation](https://docs.google.com/spreadsheets/d/1g6xG4EhbOI9c9EL50p4-9w67Qtwz7rMt7fDnTvXlExA/edit#gid=0).
+    - Data: [05-Res-Latency-hotel](https://github.com/ysun59/DeathStarBenchData/tree/master/05-Res-Latency-hotel)
+
+- The [05 - Latency of HotelReservation Swarm](https://docs.google.com/spreadsheets/d/1g6xG4EhbOI9c9EL50p4-9w67Qtwz7rMt7fDnTvXlExA/edit#gid=1045338351)
+    - Data: [05-Res-Latency-hotel-Swarm](https://github.com/ysun59/DeathStarBenchData/tree/master/05-Res-Latency-hotel-Swarm)
+
+- The [03 - Latency of MediaMicroservices Swarm ](https://docs.google.com/spreadsheets/d/1QVXeD7BLXc9pBokXuzk-ABvsG9ydDSpZK6EE8bEhFjw/edit#gid=1045338351)
+    - Data: [03-Res-Latency-media-Swarm](https://github.com/ysun59/DeathStarBenchData/tree/master/03-Res-Latency-media-Swarm)
+
+
+
+
 ### Perf results
 - The [Perf of HotelReservation](https://docs.google.com/spreadsheets/d/1TrBh9p-e5ZvEHpTV7RjCnJprcAX9USj5mwxQ-W7hJdI/edit#gid=0)
     - Data: [Res-perfCacheNStatA-hotel](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-hotel)
