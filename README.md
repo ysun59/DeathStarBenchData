@@ -80,6 +80,8 @@ https://docs.google.com/spreadsheets/d/1cbLkXNj2Nv5Erb4qJ-bofXix7H1UAu_WXZP_0gF-
 - The [03 - Latency of MediaMicroservices Swarm ](https://docs.google.com/spreadsheets/d/1QVXeD7BLXc9pBokXuzk-ABvsG9ydDSpZK6EE8bEhFjw/edit#gid=1045338351)
     - Data: [03-Res-Latency-media-Swarm](https://github.com/ysun59/DeathStarBenchData/tree/master/03-Res-Latency-media-Swarm)
 
+- The [03 - Latency of SocialNetwork1 Swarm ](https://docs.google.com/spreadsheets/d/1cVVgBsQXYFdK8wWYeFSkCXTaK7Lk_UoXT8pRVRz7Vhw/edit#gid=1045338351)
+    - Data: [03-Res-Latency-Social1-Swarm](https://github.com/ysun59/DeathStarBenchData/tree/master/03-Res-Latency-Social1-Swarm)
 
 
 
