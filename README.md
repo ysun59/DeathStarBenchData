@@ -116,7 +116,7 @@ https://docs.google.com/spreadsheets/d/1cbLkXNj2Nv5Erb4qJ-bofXix7H1UAu_WXZP_0gF-
     - Data: [Res-perfCacheNStatA-media-Swarm-02](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-media-Swarm-02) 
 
 - The [Perf of SocialNetwork1 02](https://docs.google.com/spreadsheets/d/1k7GN9RZ_emAuYgQBuORj2ShQz3i6qeSSy3FHQH66wMc/edit#gid=0)
-    - Data: [Res-Latency-social1-02](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-Latency-social1-02) 
+    - Data: [Res-perfCacheNStatA-social1-02](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-social1-02) 
 
 - The [Perf of SocialNetwork1 Swarm-02](https://docs.google.com/spreadsheets/d/1k7GN9RZ_emAuYgQBuORj2ShQz3i6qeSSy3FHQH66wMc/edit#gid=0)
     - Data: [Res-perfCacheNStatA-social1-Swarm-02](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-social1-Swarm-02) 
@@ -126,8 +126,8 @@ https://docs.google.com/spreadsheets/d/1cbLkXNj2Nv5Erb4qJ-bofXix7H1UAu_WXZP_0gF-
 - The [Perf of HotelReservation 05](https://docs.google.com/spreadsheets/d/19NOpNJwxqmMIlFYKIO1YoARBDgLtnK0_s4P4A6e8bOg/edit#gid=0)
     - Data: [Res-perfCacheNStatA-hotel-05](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-hotel-05)
 
-- The [Perf of HotelReservation Swarm-customizaConSet-05](https://docs.google.com/spreadsheets/d/19NOpNJwxqmMIlFYKIO1YoARBDgLtnK0_s4P4A6e8bOg/edit#gid=0)
-    - Data: [Res-perfCacheNStatA-hotel-Swarm-customizaConSet-05](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-hotel-Swarm-customizaConSet-05)
+- The [Perf of HotelReservation Swarm-05](https://docs.google.com/spreadsheets/d/19NOpNJwxqmMIlFYKIO1YoARBDgLtnK0_s4P4A6e8bOg/edit#gid=0)
+    - Data: [Res-perfCacheNStatA-hotel-Swarm-05](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-hotel-Swarm-05)
 
 - The [Perf of MediaMicroservices Swarm-03](https://docs.google.com/spreadsheets/d/14XNSVlUjwLlqAfsn6rPLnKIlKBZHeM5JhRuy0WkPATk/edit#gid=0)
     - Data: [Res-perfCacheNStatA-media-Swarm-03](https://github.com/ysun59/DeathStarBenchData/tree/master/Res-perfCacheNStatA-media-Swarm-03) 
